@@ -13,6 +13,8 @@
 		C1A2F948291E89BD0089AB3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F946291E89BD0089AB3F /* Main.storyboard */; };
 		C1A2F94A291E89BE0089AB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F949291E89BE0089AB3F /* Assets.xcassets */; };
 		C1A2F94D291E89BE0089AB3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F94B291E89BE0089AB3F /* LaunchScreen.storyboard */; };
+		C1A2F955291E8A970089AB3F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F954291E8A970089AB3F /* README.md */; };
+		C1A2F95D291EA7CA0089AB3F /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2F95C291EA7CA0089AB3F /* ViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C1A2F949291E89BE0089AB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1A2F94C291E89BE0089AB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1A2F94E291E89BE0089AB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A2F954291E8A970089AB3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C1A2F95C291EA7CA0089AB3F /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		C1A2F934291E89BD0089AB3F = {
 			isa = PBXGroup;
 			children = (
+				C1A2F954291E8A970089AB3F /* README.md */,
 				C1A2F93F291E89BD0089AB3F /* Rocket Reviews */,
 				C1A2F93E291E89BD0089AB3F /* Products */,
 			);
@@ -59,6 +64,7 @@
 				C1A2F940291E89BD0089AB3F /* AppDelegate.swift */,
 				C1A2F942291E89BD0089AB3F /* SceneDelegate.swift */,
 				C1A2F944291E89BD0089AB3F /* ViewController.swift */,
+				C1A2F95C291EA7CA0089AB3F /* ViewControllerExtension.swift */,
 				C1A2F946291E89BD0089AB3F /* Main.storyboard */,
 				C1A2F949291E89BE0089AB3F /* Assets.xcassets */,
 				C1A2F94B291E89BE0089AB3F /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				C1A2F94D291E89BE0089AB3F /* LaunchScreen.storyboard in Resources */,
 				C1A2F94A291E89BE0089AB3F /* Assets.xcassets in Resources */,
+				C1A2F955291E8A970089AB3F /* README.md in Resources */,
 				C1A2F948291E89BD0089AB3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1A2F945291E89BD0089AB3F /* ViewController.swift in Sources */,
+				C1A2F95D291EA7CA0089AB3F /* ViewControllerExtension.swift in Sources */,
 				C1A2F941291E89BD0089AB3F /* AppDelegate.swift in Sources */,
 				C1A2F943291E89BD0089AB3F /* SceneDelegate.swift in Sources */,
 			);
