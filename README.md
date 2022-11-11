@@ -11,7 +11,7 @@ Os tipos `Media`e `Author`, entretanto, não foram definidos. Dêem uma olhada n
 # Tela Principal
 
 <p align="center">
-    <img src="./tela-principal.png" />
+    <img with="400px" height="auto" src="./tela-principal.png" />
 </p>
 
 A tela principal deve conter uma lista com informações resumidas das séries/animes. Cada elemento da lista deve possuir uma imagem, o título, nome do autor e o resumo.
@@ -34,7 +34,7 @@ Ou seja, caso o texto de filtro seja parte do nome de um autor deve aparecer a s
 # Tela de Detalhes
 
 <p align="center">
-    <img src="./tela-detalhes.png" />
+    <img with="400px" height="auto" src="./tela-detalhes.png" />
 </p>
 
 A tela de detalhes deve possuir os dados completos da série/anime selecionada.
@@ -50,7 +50,7 @@ Utilizem uma scrollview para poder exibir as informações em tamanho suficiente
 # Tela do Perfil
 
 <p align="center">
-    <img src="./tela-perfil.png" />
+    <img with="400px" height="auto" src="./tela-perfil.png" />
 </p>
 
 Deve possuir o avatar maior do que na tela dos detalhes da mídia, além disso conter o nome e a descrição seguidos das redes sociais.
