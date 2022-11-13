@@ -10,7 +10,7 @@ import Foundation
 // MARK: Authors and Medias
 // esse é o arquivo que gera os autores e as mídias pro MediaListViewController
 
-extension ViewController {
+extension FirstScreenViewController {
     func createAuthors() -> [Author] {
         return [
             Author(
