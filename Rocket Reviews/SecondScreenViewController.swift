@@ -16,7 +16,7 @@ class SecondScreenViewController: UIViewController {
     @IBOutlet weak var resumeLabel: UILabel!
     @IBOutlet weak var nameAuthors: UILabel!
     var media: Media!
-    
+    var author: Author!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,9 +25,15 @@ class SecondScreenViewController: UIViewController {
 
     }
     
+    
 
     @IBAction func perfilScreen(_ sender: Any) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "ProfileViewController", bundle: nil)
         
+        let profileViewScreen = storyBoard.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
+        profileViewScreen.modalPresentationStyle = .overFullScreen
+        profileViewScreen.author = FirstScreenViewController.authors[sender.row]
+        self.present(profileViewScreen, animated: true)
     }
     
     @IBAction func backTap(_ sender: Any) {

@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First Screen View Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FirstScreenViewController" customModule="Rocket_Reviews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,13 +41,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVA-P6-iWM">
-                                                    <rect key="frame" x="123" y="21.666666666666671" width="247" height="24"/>
+                                                    <rect key="frame" x="127" y="21.666666666666671" width="247" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nomes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNt-Qj-nfa">
-                                                    <rect key="frame" x="139" y="51.666666666666664" width="63" height="16.999999999999993"/>
+                                                    <rect key="frame" x="143" y="51.666666666666664" width="63" height="16.999999999999993"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="63" id="hxE-HJ-WxH"/>
                                                     </constraints>
@@ -56,13 +56,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nzV-oM-dGw">
-                                                    <rect key="frame" x="20" y="9" width="80" height="80"/>
+                                                    <rect key="frame" x="24" y="9" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="80" id="Fyz-DY-VUX"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Testao" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UOD-Wb-oZh">
-                                                    <rect key="frame" x="123" y="68.666666666666671" width="181" height="20.333333333333329"/>
+                                                    <rect key="frame" x="127" y="68.666666666666671" width="181" height="20.333333333333329"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="181" id="Ls6-vP-MIb"/>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="s8G-4h-yDs"/>
