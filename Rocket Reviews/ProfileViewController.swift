@@ -30,6 +30,7 @@ class ProfileViewController: UIViewController {
     @IBAction func gitHubButton(_ sender: UIButton) {
     }
     
+    
     var author: Author!
     
     override func viewDidLoad() {
@@ -37,6 +38,11 @@ class ProfileViewController: UIViewController {
         
         valuesAuthor(author)
         
+    }
+    
+    
+    @IBAction func backButtonClick(_ sender: UIButton) {
+        self.dismiss(animated: true)
     }
     
     func valuesAuthor(_ author: Author) {
