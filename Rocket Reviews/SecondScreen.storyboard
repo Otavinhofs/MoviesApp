@@ -61,11 +61,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kf6-uE-sHN">
-                                        <rect key="frame" x="11" y="199" width="333" height="20.333333333333343"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="333" id="BxP-Ao-9XW"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20.329999999999998" id="ZNP-wv-SUA"/>
-                                        </constraints>
+                                        <rect key="frame" x="157" y="199" width="41.333333333333343" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -77,11 +73,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTg-Wr-DdL">
-                                        <rect key="frame" x="11" y="259.66666666666669" width="333" height="20.333333333333314"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="333" id="qPo-Xw-Ohi"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20.329999999999998" id="r5C-WU-mil"/>
-                                        </constraints>
+                                        <rect key="frame" x="157" y="259.66666666666669" width="41.333333333333343" height="20.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -93,11 +85,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4n-ew-Btb">
-                                        <rect key="frame" x="11" y="320.33333333333326" width="333" height="259.66666666666674"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20.329999999999998" id="G7I-wk-oFe"/>
-                                            <constraint firstAttribute="width" constant="333" id="htA-cs-s9a"/>
-                                        </constraints>
+                                        <rect key="frame" x="157" y="320.33333333333326" width="41.333333333333343" height="259.66666666666674"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
