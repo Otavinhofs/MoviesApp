@@ -8,7 +8,8 @@
 import UIKit
 
 class FirstScreenViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
+    @IBOutlet weak var tableView: UITableView!
+    
     var authors: [Author] = []
     var medias: [Media] = []
     
@@ -16,6 +17,8 @@ class FirstScreenViewController: UIViewController, UITableViewDataSource, UITabl
         super.viewDidLoad()
         authors = createAuthors()
         medias = createMedias()
+        tableView.dataSource = self
+        tableView.delegate = self
     }
     
     
@@ -36,7 +39,10 @@ class FirstScreenViewController: UIViewController, UITableViewDataSource, UITabl
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let storyBoard: UIStoryboard = UIStoryboard(name: "SecondScreen", bundle: nil)
         
-        let secondViewScreen = storyBoard.instantiateViewController(withIdentifier: "secondScreen") as! SecondScreenViewController
+        let secondViewScreen = storyBoard.instantiateViewController(withIdentifier: "secondScreens") as! SecondScreenViewController
+        secondViewScreen.modalPresentationStyle = .overFullScreen
+        secondViewScreen.media = medias[indexPath.row]
+        self.present(secondViewScreen, animated: true)
     }
 
 }
