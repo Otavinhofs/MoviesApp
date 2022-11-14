@@ -13,7 +13,7 @@ class FirstScreenViewController: UIViewController, UITableViewDataSource, UITabl
     
     var authors: [Author] = []
     var medias: [Media] = []
-    var indexPathFirst: IndexPath?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         authors = createAuthors()
@@ -42,7 +42,6 @@ class FirstScreenViewController: UIViewController, UITableViewDataSource, UITabl
         let secondViewScreen = storyBoard.instantiateViewController(withIdentifier: "secondScreens") as! SecondScreenViewController
         secondViewScreen.modalPresentationStyle = .overFullScreen
         secondViewScreen.media = medias[indexPath.row]
-        indexPathFirst = indexPath
         self.present(secondViewScreen, animated: true)
     }
 

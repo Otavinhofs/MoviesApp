@@ -35,6 +35,8 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        valuesAuthor(author)
+        
     }
     
     func valuesAuthor(_ author: Author) {

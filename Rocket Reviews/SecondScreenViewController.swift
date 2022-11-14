@@ -29,12 +29,10 @@ class SecondScreenViewController: UIViewController {
     
 
     @IBAction func perfilScreen(_ sender: UIButton) {
-        let firstStoryboard = UIStoryboard(name: "main", bundle: nil)
-        let firstScreen = firstStoryboard.instantiateViewController(withIdentifier: "firstScreen") as! FirstScreenViewController
         let storyboard = UIStoryboard(name: "ProfileScreen", bundle: nil)
         let thirdScreen = storyboard.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
         thirdScreen.modalPresentationStyle = .overFullScreen
-        thirdScreen.author = firstScreen.authors
+        thirdScreen.author = media.author
         self.present(thirdScreen, animated: true, completion: nil)
         
     }
