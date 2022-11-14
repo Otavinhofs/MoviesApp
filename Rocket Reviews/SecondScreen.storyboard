@@ -87,10 +87,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Análise" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIO-X1-p4V">
-                                        <rect key="frame" x="126.66666666666666" y="290" width="102" height="20.333333333333314"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="102" id="Y84-GY-VD4"/>
-                                        </constraints>
+                                        <rect key="frame" x="145" y="290" width="65" height="20.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
